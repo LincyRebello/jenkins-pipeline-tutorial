@@ -9,7 +9,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
-                echo 'compile this file'
+              echo 'compile this code'
             }
         }
         stage('Security Check') {
@@ -20,7 +20,7 @@ pipeline {
         stage('Run Unit Tests') {
             steps {
                 echo 'Run unit tests from the source code' 
-                echo 'Run the test'
+                echo 'Run this test'
             }
         }
         stage('Run Integration Tests') {
